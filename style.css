@@ -1,0 +1,32 @@
+body /*O elemento <body> é um elemento especial que envolve todo o conteúdo visível em uma página da web */ {
+  background-color: #fff0f5; /*cor de fundo*/
+}
+
+section  /* o elemento <section> é um elemento de bloco que é usado para agrupar conteúdo relacionado em uma página da web aonde no stles.cs é estilizado */ {
+  border: 1px dashed #d8bff8; /*borda*/
+}
+section
+/*"#" faz referencia à um item do HTML*/ 
+#status /*o elemento <status> é um elemento de bloco que é usado para exibir informações sobre o status de uma página da web */ {
+  color: rgb(126, 125, 125); /*cor da fonte*/
+  font-size: 30px; /*tamanho da fonte*/
+}
+
+buttom /*o elemento <buttom> é um elemento de bloco que é usado para criar botões em uma página da web */ {
+  background-color: #e686b9; //*cor de fundo*/
+  width: 150px; /*largura*/
+  heght: 50px; /*altura*/
+  font-family: Cambria, Conchin, Georgia, Times, "Times New Roman", serif; /*tipo de fonte*/
+  font-size: 18px; /* tamanho da fonte*/
+}
+.menu-item {
+  gap: 5rem;
+  text-decoration: none;
+  width: 40px;
+  height: 50px;
+}
+
+.menu-item:hover {
+  background-color: #e686b9;
+  color: #fff0f5;
+}
